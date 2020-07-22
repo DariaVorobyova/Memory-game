@@ -3,6 +3,7 @@ import './App.css';
 import Table from './components/Table/Table';
 import Score from './components/Score';
 import Button from './components/Button';
+import Message from './components/Message'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Score/>
       <Table/>
       <Button/>
-      <h3 id="message">You win!</h3>
+      <Message/>
     </div>
   );
 }
