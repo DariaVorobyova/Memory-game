@@ -1,0 +1,45 @@
+
+.score-section{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px;
+    font-style: italic;
+}
+.game-field{
+    background-color: #182faf;
+    border-collapse: collapse;
+    margin: auto;
+}
+.game-field_cells{
+width: 90px;
+height: 80px;
+cursor: pointer;
+border: 1px solid #ffffff;
+}   
+.selectedCell{
+    background-color: #691f59;
+}
+.hideCell{
+    background-color: #182faf;
+}
+.start-button{
+    outline: none;
+    cursor: pointer;
+    background-color: #691f59;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, 0);
+    top: 50px;
+}
+h3{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 70px;
+    font-style: italic;
+    display: none;
+}
